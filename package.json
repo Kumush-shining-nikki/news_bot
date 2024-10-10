@@ -1,0 +1,29 @@
+{
+  "name": "news_weather_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/conversations": "^1.2.0",
+    "@grammyjs/menu": "^1.2.2",
+    "axios": "^1.7.7",
+    "grammy": "^1.30.0",
+    "mongodb": "^6.9.0",
+    "moongose": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "node-persist": "^4.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
